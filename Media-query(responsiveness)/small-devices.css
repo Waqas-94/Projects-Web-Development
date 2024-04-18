@@ -1,0 +1,32 @@
+@media only screen and (max-width: 540px)
+{
+  .nav
+    {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    ul
+    {
+      flex-direction: column;
+    }
+  }
+  #list
+  {
+    justify-content: flex-end;
+  }
+  .description
+  {
+    width: auto;
+    height: 5vh;
+  }
+  #para
+  {
+    p{font-size: 25px;}
+  }
+  #desc
+  {
+    h1{font-size: 30px;}
+  }
+
+
+}

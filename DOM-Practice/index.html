@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+
+        <div id="selector" class="align item">STYLING SELECTOR</div>
+
+            <!-- Heading OUTPUT Background Color  -->
+            <!-- Heading OUTPUT TEXT  -->
+        <div id="heading" class="align" style="height:10vh;width:60vw;"></div>
+
+            <!-- Heading INPUT Background Color -->
+        <div class="align item ">
+            <input class="in_style" id="heading-bg" type="text" placeholder="Enter Header BG-Color">
+            <button class="btn" onclick="heading_bg()">Click</button>
+        </div>
+
+            <!-- Heading INPUT TEXT -->
+        <div class="align item">
+            <input class="in_style" id="heading-text" type="text" placeholder="Enter Header">
+            <button class="btn" onclick="heading_text()">Click</button>
+        </div>
+
+            <!-- MAIN CONTAINER OUTPUT Background Color  -->
+            <!-- MAIN CONTAINER OUTPUT TEXT  -->
+        <div id="div" class="align" style="height:50vh;width:60vw;align-self:center;justify-self:center;"></div>
+        
+            <!-- MAIN CONTAINER INPUT Background Color -->
+        <div class="align item">
+            <input class="in_style"  id="div-bg" type="text" placeholder="Enter Main Container BG-Color">
+            <button class="btn" onclick="div_bg()">Click</button>
+        </div>
+
+            <!-- MAIN CONTAINER INPUT TEXT -->
+        <div class=" align item">
+            <input class="in_style"id="div-text" type="text" placeholder="Enter Container Text">
+            <button class="btn" onclick="div_text()">Click</button>
+        </div>  
+
+         <!-- OUTPUT IMAGE -->
+        <div id="image" class="align">
+            <img id="im" src="#" alt="" style="max-width: 150%; height:100%;">
+        </div>
+
+        <!-- INPUT IMAGE -->
+        <div class="align item">
+            <input id="input-image" type="file"  name="myFile" style="color: white;" >
+            <button class="btn" onclick="input_image()">Click</button>
+        </div>
+
+        
+        <!-- FOOTER INPUT Background Color -->
+        <div class="align item ">
+            <input class="in_style" id="ftr-bg" type="text" placeholder="Enter FOOTER BG-Color">
+            <button class="btn" onclick="ftr_bg()">Click</button>
+        </div>
+        
+        <!-- FOOTER INPUT TEXT -->
+        <div class="align item">
+            <input class="in_style" id="ftr-text" type="text" placeholder="Enter FOOTER">
+            <button class="btn" onclick="ftr_text()">Click</button>
+        </div>
+        
+        <!-- FOOTER OUTPUT Background Color  -->
+        <!-- FOOTER OUTPUT TEXT  -->
+        <div id="ftr" class="align" style="height:10vh;width:60vw;"></div>
+
+        
+    </div>
+
+
+
+
+
+    <!-- <div id="imageContainer" style="width: 200px; height: 200px; border: 1px solid #ccc;"></div>
+    <input type="file" id="fileInput"> -->
+    
+
+
+
+    <script src="task.js"></script>
+    <!-- <script src="chat.js"></script> -->
+</body>
+</html>

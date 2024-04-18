@@ -1,0 +1,29 @@
+@media  screen and (max-width:780px)
+{
+
+    .contact-detail
+    {
+        flex-direction: column;
+    }
+
+    .nav
+    {
+    flex-direction: column;
+    margin: 0;
+    }
+    .description
+    {
+        height: auto;
+    }
+    #para{
+        p{
+            font-size: 30px;
+        }
+    }
+    #desc{
+        h1{
+            font-size: 40px;
+        }
+    }
+    
+}

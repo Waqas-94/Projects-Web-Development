@@ -1,0 +1,46 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: powderblue;
+}
+
+#heading
+{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.main
+{
+    display: grid;
+    align-items: center;
+    height: 86vh;
+    overflow: hidden;
+}
+
+.border
+{
+    width: 100vw;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 0 5px 5px 0;
+    margin: 2px;
+    display: grid;
+    align-items: center;
+}
+#progress
+{
+    width: 1vw;
+    height: 20px;
+    border-radius: 0 5px 5px 0;
+}

@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main
+{
+    background-image: linear-gradient(43deg,pink,purple,rgb(238, 69, 69));
+    width: 600px;
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr 2.5fr;
+    column-gap:20px; 
+    row-gap: 5px;   
+    padding: 10px;
+}
+
+.align{align-content: center;word-wrap: normal;}
+#div
+{
+    grid-row: 2/5; 
+    grid-column-start: 2;
+    text-align:justify;
+    
+}
+#image
+{
+    grid-row: 5/8; 
+    grid-column-start: 2;
+    height:50vh; 
+    width:40vw;
+    padding: 4px;
+    justify-self:center;
+}
+.item{background-color: transparent;border:2px solid rgb(31, 28, 28);border-radius: 10px}
+input
+{
+    margin-left: 10px;
+}
+
+#selector
+{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgba(255, 255, 255,1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-content: center;
+    text-decoration:underline rgb(207, 203, 203);
+}
+
+.in_style
+{
+    width: 70%;
+    height: 30px;
+    border-radius: 15px;
+    border: 0.5px;
+    padding-left: 10px;
+}
+.btn
+{
+    height:30px ;
+    width: 20%;
+    border-radius: 15px;
+    border: 0.5px;
+    background-color: white;
+    margin: 10px;
+}
+#heading,#ftr
+{
+    text-align: center;
+    align-content: center;
+}

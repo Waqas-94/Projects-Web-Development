@@ -1,0 +1,56 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.rain
+{
+    background-image:url("torain.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+.tree
+{
+    background-image:url("tree1.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    mix-blend-mode: darken;
+}
+
+#toggle1
+{
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-size: 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50vh;
+    left:40vw
+}
+#toggle2
+{
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-size: 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 60vh;
+    left:60vw
+}
